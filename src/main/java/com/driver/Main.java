@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
         Product p = new Product();
-        p.product(10, 3);
-        p.product(10, 3, 7);
-        p.product(10.4, 8.4);
+        System.out.println( p.product(10, 3));
+        System.out.println(p.product(10, 3, 7));
+        System.out.println(p.product(10.4, 8.4));
 
     }
 
